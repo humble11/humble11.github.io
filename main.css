@@ -1,0 +1,295 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----------------FIRST NAVIGATION AREA-------------------*/
+.content-with-icon {
+    background-color: blue;
+    align-items: center;
+    padding: 15px;
+    justify-content: left;
+    padding-left: 150px;
+    color: white;
+}
+/*-----------------SECOND NAVIGATION AREA-------------------*/
+.first-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-bottom: 1px solid  rgb(203, 206, 240);
+    margin-top: 20px;
+}
+.first-section-content { float: left;
+    display: flex;  
+}
+
+.store-front-icon {
+    width: 3rem;
+    height: 3rem;
+    background-color: #808080;
+    color: #ffffff;
+    border-radius: 50%;
+    margin-left: 150px;
+    align-content: center;
+    padding: 10px 10px;
+    margin-top: 10px; 
+    margin-bottom: 20px; 
+}
+.first-section-content1 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.first-section-content2 {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 10px;  
+}
+
+.section-content-bag, .section-content-account {
+    display: flex;
+    align-content: flex-end;
+}
+
+.icon-bag, .icon-account {
+    font-size: 150%;
+    color: gray;
+    margin: 10px
+}
+
+.bag-link, .account-link {
+    text-decoration: none;
+    color: gray;
+    margin-top: 15px;
+}
+/*-----------------SECOND NAVIGATION AREA ENDS HERE-------------------*/
+
+/*-----------------THE SEARCH INPUT WITH FIRST SECTION-------------------*/
+.search-box {
+    display: flex;
+    justify-content: center;
+}
+.search-input { 
+    height: 35px;
+    width: 55%;
+    border: none;
+    background-color: rgb(223, 223, 223);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 0px;
+    z-index: -1;
+}
+
+.search-icon {
+    height: 35px !important;
+    width: 40px;
+    background-color: rgb(240, 211, 46);
+    color: blue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 0px;
+    z-index: 2;
+}
+/*-----------------SECOND SECTION AREA START FROM HERE-------------------*/
+.housing-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.items-child-list li {
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.items-child-list a:link,
+.items-child-list a:visited {
+    padding: 5px 50px;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(105, 103, 103);
+    font-family: sans-serif;
+    transition: 0.5s;
+}
+
+.items-child-list a:hover,
+.items-child-list a:active {
+    background-color: lightskyblue;
+    width: 100%;
+    margin: 0px auto;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: rgb(105, 103, 103);
+}
+
+.items-list-parent { 
+    width: 100%;
+    text-align:start;
+    padding-left: 80px;
+    border-right: 1px solid rgb(203, 206, 240);
+}
+
+.items-child-list {
+    list-style: none;
+}
+.first-child {
+    color:  rgb(46, 46, 190);
+}
+#last-child, .last-child-icon {
+    color:  rgb(46, 46, 190);
+    vertical-align: middle;
+}
+
+.parent-content { 
+    display: block;
+    border-right: 1px solid  rgb(203, 206, 240);
+}
+.starting-elect {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.counting { 
+    width: 10%;
+    border-radius: 5px;
+    background-color: rgb(71, 191, 231);
+    color: white;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.product-content-image {
+    display: flex;
+    flex-direction: column;   
+}
+img { width: 100px;
+    height: 80px;
+    border-radius: 20%;
+    padding-left: 20px;
+}
+
+.add-to-cart {
+    padding: 5px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid rgb(89, 141, 236);
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.add-to, .add {
+    color: blue;
+    vertical-align: middle;
+}
+
+
+.product-shopped {
+    text-align: center;
+
+}
+.bag-counted {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.empty-basket {
+    padding: 30px 0px;
+    margin-left: 25px;
+}
+/*-----------------SECOND SECTION AREA ENDS HERE-------------------*/
+
+/*-----------------THIRD SECTION AREA STARTS HERE-------------------*/
+.quality {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;  
+    padding: 30px;
+    padding-left: 450px;
+    padding-right: 280px;
+    background-color: blue;
+}
+.quality-icon {
+    padding-right: 30px;
+    font-size: 300%;
+    color: yellow;
+}
+.quality-customer {
+    color: white;
+    padding: left;
+}
+/*-----------------THIRD SECTION AREA ENDS HERE-------------------*/
+
+/*-----------------FOURTH SECTION IN FOOTER AREA-------------------*/
+.footer-nav {
+    text-align: center;
+    margin-top: 40px;   
+}
+
+.footer-nav-content {
+    margin-bottom: 20px;
+}
+
+.whatsapp-store {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(53, 175, 89);
+    margin-left: 600px;
+    margin-right: 600px;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.whatsapp-store a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contact {
+    color: white;
+    padding-right: 5px;
+    margin-top: 2px;
+}
+
+
+h1, h2, h3, p {
+    color: rgb(100, 95, 95);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+h3 {
+    color: black;
+}
+h4 {
+    color: white;
+}
+
+
+h1 {
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
